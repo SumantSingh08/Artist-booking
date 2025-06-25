@@ -37,7 +37,7 @@ function Home() {
     return (
         <div className='w-full min-h-screen bg-blue-100'>
             
-            {/* Hero Section */}
+            
             <div className="bg-blue-100 text-center py-20 px-6">
                 <h2 className="text-4xl font-bold text-gray-800 mb-4">Discover & Book Top Artists</h2>
                 <p className="text-gray-700 max-w-2xl mx-auto mb-6">
@@ -51,7 +51,7 @@ function Home() {
                     Explore Artists
                 </button>
             </div>
-            {/* Featured Artists Section */}
+            
             <div className="py-16 px-6 bg-blue-100">
                 <h3 className="text-2xl font-bold text-center mb-6">Featured Artists</h3>
                 <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -60,7 +60,7 @@ function Home() {
                     ))}
                 </div>
             </div>
-            {/* Platform Overview Section */}
+            
             <section className="py-16 px-6 bg-white">
                 <h3 className="text-2xl font-bold text-center mb-6">Why Choose Our Platform?</h3>
                 <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">

@@ -7,7 +7,7 @@ function ArtistCard({name, category, location, price}) {
                 <h3 className="text-xl font-semibold">{name}</h3>
                 <p className="text-gray-500 text-sm">{category} • {location}</p>
                 <p className="text-blue-600 font-semibold mt-2">{price}</p>
-                <button className="mt-3 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition">
+                <button className="mt-3 w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition cursor-pointer">
                     Ask for Quote
                 </button>
             </div>

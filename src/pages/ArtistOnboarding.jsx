@@ -101,14 +101,15 @@ function ArtistOnboarding() {
                         {errors.location && <p className="text-red-500">{errors.location.message}</p>}
                     </div>
 
-
-
-                    <button
+                    <div className='text-center'>
+                        <button
                         type="submit"
-                        className="bg-blue-600 text-white text-center items-center px-6 py-2 rounded hover:bg-blue-700 cursor-pointer"
+                        className="w-full my-3 bg-blue-600 text-white  px-6 py-2 rounded hover:bg-blue-700 cursor-pointer"
                     >
                         Submit
                     </button>
+                    </div>
+                    
                 </form>
             </div>
         </div>
