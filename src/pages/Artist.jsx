@@ -1,6 +1,6 @@
 import React from 'react'
 import FilterBlock from '../Components/FilterBlock'
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import ArtistCard from '../Components/ArtistCard'
  function Artist() {
     const {artists, filterData} = useSelector((state) =>state.artist)

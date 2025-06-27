@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Components/Header'
 import Card from '../Components/Card';
 import dj from '../assets/dj.jpg'
 import singer from '../assets/singer.jpg'
